@@ -21,10 +21,10 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Resultado" options="" />
-      <module name="empleado" options="-parameters" />
-      <module name="examen" options="-parameters" />
-      <module name="orden" options="-parameters" />
-      <module name="usuario" options="-parameters" />
+      <module name="empleado" options="" />
+      <module name="examen" options="" />
+      <module name="orden" options="" />
+      <module name="usuario" options="" />
     </option>
   </component>
 </project>

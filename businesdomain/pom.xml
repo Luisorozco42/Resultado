@@ -95,5 +95,9 @@
 
     <modules>
         <module>Resultado</module>
+        <module>usuario</module>
+        <module>orden</module>
+        <module>examen</module>
+        <module>empleado</module>
     </modules>
 </project>

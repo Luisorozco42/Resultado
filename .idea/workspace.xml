@@ -4,11 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b51cebb-58bc-4a99-afba-90e63658adb1" name="Changes" comment="" />
+    <list default="true" id="4b51cebb-58bc-4a99-afba-90e63658adb1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/businesdomain/empleado/src/main/java/com/example/empleado/entities/empleado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/businesdomain/empleado/src/main/java/com/example/empleado/repositories/EmpleadoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/businesdomain/examen/src/main/java/com/example/examen/entities/examen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/businesdomain/examen/src/main/java/com/example/examen/repositories/ExamenRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/businesdomain/orden/src/main/java/com/example/orden/entities/orden.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/businesdomain/orden/src/main/java/com/example/orden/repositories/OrdenRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/businesdomain/usuario/src/main/java/com/example/usuario/entities/usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/businesdomain/usuario/src/main/java/com/example/usuario/repositories/UsuarioRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/businesdomain/Resultado/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/businesdomain/Resultado/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/businesdomain/empleado/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/businesdomain/empleado/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/businesdomain/examen/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/businesdomain/examen/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/businesdomain/orden/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/businesdomain/orden/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/businesdomain/usuario/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/businesdomain/usuario/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -50,7 +73,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;01f264fee8f5a2f7525a43c10d96b823&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;dadb8d83253aa4fb2ea77a6a08434b7d&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -61,6 +84,13 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\IntellijIdeaProjects\Proyecto-Prolis\businesdomain" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
   </component>
   <component name="RunManager" selected="Spring Boot.ResultadoApplication">
     <configuration default="true" type="JetRunConfigurationType">
@@ -130,6 +160,9 @@
       <workItem from="1684202612505" duration="5049000" />
       <workItem from="1684210150886" duration="55000" />
       <workItem from="1684210647820" duration="2320000" />
+      <workItem from="1684214759294" duration="336000" />
+      <workItem from="1684252908072" duration="7693000" />
+      <workItem from="1684290317177" duration="971000" />
     </task>
     <servers />
   </component>

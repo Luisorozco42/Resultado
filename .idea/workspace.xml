@@ -5,20 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b51cebb-58bc-4a99-afba-90e63658adb1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/businesdomain/empleado/src/main/java/com/example/empleado/entities/empleado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businesdomain/empleado/src/main/java/com/example/empleado/repositories/EmpleadoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businesdomain/examen/src/main/java/com/example/examen/entities/examen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businesdomain/examen/src/main/java/com/example/examen/repositories/ExamenRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businesdomain/orden/src/main/java/com/example/orden/entities/orden.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businesdomain/orden/src/main/java/com/example/orden/repositories/OrdenRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businesdomain/usuario/src/main/java/com/example/usuario/entities/usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businesdomain/usuario/src/main/java/com/example/usuario/repositories/UsuarioRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/businesdomain/examen/src/main/java/com/example/examen/controller/ExamenController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/businesdomain/examen/src/main/java/com/example/examen/service/ExamenService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/businesdomain/examen/src/main/java/com/example/examen/service/impl/ExamenServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/businesdomain/Resultado/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/businesdomain/Resultado/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/businesdomain/empleado/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/businesdomain/empleado/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/businesdomain/examen/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/businesdomain/examen/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/businesdomain/orden/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/businesdomain/orden/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/businesdomain/usuario/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/businesdomain/usuario/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/businesdomain/empleado/src/main/java/com/example/empleado/entities/empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/businesdomain/empleado/src/main/java/com/example/empleado/entities/empleado.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -92,7 +83,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ResultadoApplication">
+  <component name="RunManager" selected="Spring Boot.ExamenApplication">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Proyecto-Prolis" />
       <method v="2">
@@ -162,7 +153,8 @@
       <workItem from="1684210647820" duration="2320000" />
       <workItem from="1684214759294" duration="336000" />
       <workItem from="1684252908072" duration="7693000" />
-      <workItem from="1684290317177" duration="971000" />
+      <workItem from="1684290317177" duration="1438000" />
+      <workItem from="1685288480728" duration="11814000" />
     </task>
     <servers />
   </component>

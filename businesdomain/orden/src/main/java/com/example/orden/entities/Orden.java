@@ -6,7 +6,7 @@ import lombok.Data;
 @Entity
 @Data
 @Table(name = "tbl_ordenes")
-public class orden {
+public class Orden {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long IdOrden;

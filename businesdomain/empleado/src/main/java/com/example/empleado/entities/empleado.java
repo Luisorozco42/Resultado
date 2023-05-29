@@ -1,12 +1,11 @@
 package com.example.empleado.entities;
-import com.ctc.wstx.shaded.msv_core.datatype.xsd.datetime.IDateTimeValueType;
 import jakarta.persistence.*;
 import lombok.Data;
 
 @Entity
 @Data
 @Table(name = "tbl_empleado")
-public class empleado {
+public class Empleado {
         @Id
         @GeneratedValue(strategy = GenerationType.IDENTITY)
         private Long IdEmpleado;

@@ -2,6 +2,7 @@ package com.example.orden.entities;
 
 import jakarta.persistence.*;
 import lombok.Data;
+import java.util.Date;
 
 @Entity
 @Data
@@ -9,22 +10,37 @@ import lombok.Data;
 public class Orden {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long IdOrden;
-    private String N_Orden;
-    private Long IdEmpleado;
-    private Long IdPaciente;
-    private Long IdTipoServicio;
-    private Long IdTipoOrden;
-    private String Asistencia;
-    private String Observaciones;
-    private String FechaOrden;
-    private String Activo;
-    private String FechaImprime;
-    private Long IdUsuarioImprime;
-    private Integer Estado;
-    private String Finalizado;
-    private String FechaCita;
-    private String FechaReporte;
+    @Column(name = "idorden" , nullable = false, unique = true)
+    private Long idOrden;
 
+    @Column(name = "N_Orden", length = 11)
+    private String numeroOrden;
+
+    @Column(name = "idempleado", nullable = false, unique = true)
+    private Long idEmpleado;
+
+    @Column(name = "idpaciente", nullable = false, unique = true)
+    private Long idPaciente;
+
+    @Column(name = "idtiposervicio", nullable = false, unique = true)
+    private Long idTipoServicio;
+
+    @Column(name = "idtipoorden", nullable = false, unique = true)
+    private Long idTipoOrden;
+
+    @Column(name = "Asistencia", length = 1)
+    private String asistencia;
+
+    @Column(name = "Observaciones", length = 200)
+    private String observaciones;
+
+    @Column(name = "fechaorden", nullable = false, unique = true)
+    private Date fechaOrden;
+
+    @Column(name = "Activo", length = 1)
+    private String activo;
+
+    @Column(name = "fechaimprime", nullable = false, unique = true)
+    private Date fechaImprime;
 }
 

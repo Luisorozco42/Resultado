@@ -10,18 +10,42 @@ import lombok.Data;
 public class examen {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long IdExamen;
-    private Long IdAreaLabServicio;
-    private Long IdMetodologia;
-    private Long IdCategoriaExamenes;
-    private Long IdTipoMuestra;
-    private Long IdUnidadMedidas;
-    private Long IdTipoResultado;
-    private String Descripcion;
-    private String DescripcionCorta;
-    private String LisCode;
-    private String Conteo;
-    private String Confidencial;
-    private String Calculado;
-    private Integer Estado;
+    @Column(name = "idexamen", nullable = false, unique = true)
+    private Long idExamen;
+
+    @Column(name = "idarealabservicio", nullable = false, unique = true)
+    private Long idAreaLabServicio;
+
+    @Column(name = "idmetodologia", nullable = false, unique = true)
+    private Long idMetodologia;
+
+    @Column(name = "idcategoriaexamenes", nullable = false, unique = true)
+    private Long idCategoriaExamenes;
+
+    @Column(name = "idtipomuestra", nullable = false, unique = true)
+    private Long idTipoMuestra;
+
+    @Column(name = "idunidadmedidas", nullable = false, unique = true)
+    private Long idUnidadMedidas;
+
+    @Column(name = "idtiporesultado", nullable = false, unique = true)
+    private Long idTipoResultado;
+
+    @Column(name = "descripcion", length = 50, nullable = false, unique = true)
+    private String descripcion;
+
+    @Column(name = "descripcionCorta", length = 25, nullable = false, unique = true)
+    private String descripcionCorta;
+
+    @Column(name = "liscode", length = 10, nullable = false, unique = true)
+    private String liscode;
+
+    @Column(name = "conteo", length = 1, nullable = false, unique = true)
+    private String conteo;
+
+    @Column(name = "conficencial", length = 1, nullable = false, unique = true)
+    private String conficencial;
+
+    @Column(name = "calculado", length = 1, nullable = false, unique = true)
+    private String calculado;
 }

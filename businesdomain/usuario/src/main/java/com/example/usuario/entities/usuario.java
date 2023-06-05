@@ -9,17 +9,18 @@ import lombok.Data;
 public class usuario {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "idusuario", nullable = false, unique = true)
     private Long IdUsuario;
-    private Long IdEmpleado;
-    private String Login;
-    private String Pwd;
-    private String Activo;
-    private Integer Estado;
-    private Long IdUsuarioCreacion;
-    private Long IdUsuarioModificacion;
-    private Long IdUsuarioEliminacion;
-    private String FechaCreacion;
-    private String FechaModificacion;
-    private String FechaEliminacion;
 
+    @Column(name = "idempleado", nullable = false, unique = true)
+    private Long IdEmpleado;
+
+    @Column(name = "login", length = 15, nullable = false, unique = true)
+    private String Login;
+
+    @Column(name = "pwd", length = 20, nullable = false, unique = true)
+    private String Pwd;
+
+    @Column(name = "activo", length = 1, nullable = false, unique = true)
+    private String Activo;
 }

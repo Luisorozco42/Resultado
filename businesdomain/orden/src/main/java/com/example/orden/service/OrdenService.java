@@ -7,4 +7,8 @@ import java.util.List;
 public interface OrdenService {
     Orden listarPorId(Long id);
     List<Orden> obtenerOrdenes();
+    List<Orden> listarPorCampo(Long idTipoOrden);
+
+    List<Orden> listarPorIdOrden(Long idOrden);
+
 }

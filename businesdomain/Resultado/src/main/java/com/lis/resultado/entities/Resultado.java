@@ -29,14 +29,14 @@ public class Resultado {
     @Column(name = "procesado", length = 1, nullable = false, unique = true)
     private String procesado;
 
-    @Column(name = "fechaprocesado", nullable = false, unique = true)
-    private Date fechaProcesado;
+    @Column(name = "fechaprocesa", nullable = false, unique = true)
+    private Date fechaProcesa;
 
     @Column(name = "idusuarioprocesa", nullable = false, unique = true)
     private Long idUsuarioProcesa;
 
-    @Column(name = "valida", length = 1, nullable = false, unique = true)
-    private String valida;
+    @Column(name = "validado", length = 1, nullable = false, unique = true)
+    private String validado;
 
     @Column(name = "fechavalida", nullable = false, unique = true)
     private Date fechaValida;

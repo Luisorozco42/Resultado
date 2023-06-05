@@ -22,4 +22,15 @@ public class OrdenServiceImpl implements OrdenService{
     public List<Orden> obtenerOrdenes() {
         return ordenRepository.findAll();
     }
+
+    @Override
+    public List<Orden> listarPorCampo(Long idTipoOrden) {
+        // Lógica para buscar por el campo idTipoOrden en la tabla
+        return ordenRepository.findByidtipoorden(idTipoOrden);
+    }
+
+    @Override
+    public List<Orden> listarPorIdOrden(Long idOrden){
+        return ordenRepository.findByidOrden(idOrden);
+    }
 }

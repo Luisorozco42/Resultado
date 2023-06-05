@@ -30,7 +30,7 @@ public class ResultadoServiceImpl implements ResultadoService {
     }
 
     @Override
-    public void eliminarResultado(Long id) {
-        resultadoRepository.deleteById(id);
+    public void eliminarResultado(Long idResultados) {
+        resultadoRepository.deleteById(idResultados);
     }
 }

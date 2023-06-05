@@ -9,5 +9,5 @@ public interface ResultadoService {
     Resultado crearResultado(Resultado r);
     Resultado listarPorId(Long id);
     List<Resultado> obtenerResultados();
-    void eliminarResultado(Long id);
+    void eliminarResultado(Long idResultados);
 }

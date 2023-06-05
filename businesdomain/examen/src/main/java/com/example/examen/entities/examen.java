@@ -34,7 +34,7 @@ public class examen {
     @Column(name = "descripcion", length = 50, nullable = false, unique = true)
     private String descripcion;
 
-    @Column(name = "descripcionCorta", length = 25, nullable = false, unique = true)
+    @Column(name = "descripcioncorta", length = 25, nullable = false, unique = true)
     private String descripcionCorta;
 
     @Column(name = "liscode", length = 10, nullable = false, unique = true)
@@ -43,8 +43,8 @@ public class examen {
     @Column(name = "conteo", length = 1, nullable = false, unique = true)
     private String conteo;
 
-    @Column(name = "conficencial", length = 1, nullable = false, unique = true)
-    private String conficencial;
+    @Column(name = "confidencial", length = 1, nullable = false, unique = true)
+    private String confidencial;
 
     @Column(name = "calculado", length = 1, nullable = false, unique = true)
     private String calculado;

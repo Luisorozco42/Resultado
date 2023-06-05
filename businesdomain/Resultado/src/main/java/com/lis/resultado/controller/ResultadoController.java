@@ -8,15 +8,15 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
-@CrossOrigin(origins =  "{http://localhost:4200}", exposedHeaders = {"Access-Control-Allow-Origin", "Access-Control-Allow-Credentials"})
 @RestController
 @AllArgsConstructor
+@CrossOrigin(origins = "http://localhost:4200/", exposedHeaders = {"Access-Control-Allow-Origin", "Access-Control-Allow-Credentials"})
 @RequestMapping("api/resultados")
 public class ResultadoController {
 
     private ResultadoService service;
 
-    @PostMapping
+    @PostMapping("/save")
     public ResponseEntity<Resultado> crearResultado(@RequestBody Resultado r){
         Resultado rx = service.crearResultado(r);
         return new ResponseEntity<>(rx, HttpStatus.CREATED);
@@ -34,9 +34,9 @@ public class ResultadoController {
         return new ResponseEntity<>(rx, HttpStatus.OK);
     }
 
-    @DeleteMapping("{id}")
-    public ResponseEntity<String> eliminarRx(@PathVariable("id") Long id){
-        service.eliminarResultado(id);
+    @DeleteMapping("delete/{idResultados}")
+    public ResponseEntity<String> eliminarRx(@PathVariable("idResultados") Long idResultados){
+        service.eliminarResultado(idResultados);
         return new ResponseEntity<>("Resultado eliminado correctamente", HttpStatus.OK);
     }
 }
